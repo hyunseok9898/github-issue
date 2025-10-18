@@ -23,7 +23,7 @@ export default function CreateIssue() {
       initialValues: { title: "", body: "" },
       onSubmit: async () =>
         await axios.post(
-          `${GITHUB_API}/repos/hyunseok9898/github-issue/issues`,
+          `https://github-issue-backend-lyart.vercel.app`,
           inputValues,
           {
             headers: {
