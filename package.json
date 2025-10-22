@@ -1,7 +1,7 @@
 {
   "name": "react-app",
   "version": "0.1.0",
-  "homepage": "https://hyunseok9898.github.io/github-issue",
+  "homepage": ".",
   "private": true,
   "dependen cies": {
     "@testing-library/dom": "^10.4.0",
