@@ -23,7 +23,7 @@ export default function CreateIssue() {
       initialValues: { title: "", body: "" },
       onSubmit: async () =>
         await axios.post(
-          `${GITHUB_API}/repos/hyunseok9898/github-issue-ex/issues`,
+          `${GITHUB_API}/repos/hyunseok9898/github-issue/issues`,
           inputValues,
           {
             headers: {
